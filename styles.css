@@ -1,22 +1,21 @@
 /* styles.css */
 body {
-  font-family: Arial, sans-serif;
-  background: #f4f4f4;
-  text-align: center;
-  padding: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-nav {
-  margin-bottom: 20px;
+.navbar-brand {
+  font-size: 1.5rem;
 }
 
-nav a {
-  margin: 0 10px;
-  text-decoration: none;
-  color: #007acc;
-  font-weight: bold;
+h1, .lead {
+  color: #333;
 }
 
-nav a:hover {
-  text-decoration: underline;
+.btn-primary {
+  background-color: #007acc;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #005ea6;
 }
